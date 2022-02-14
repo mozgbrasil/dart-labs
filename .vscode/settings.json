@@ -1,0 +1,36 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "workbench.sideBar.location": "left",
+  "editor.minimap.enabled": false,
+  "git.detectSubmodulesLimit": 40
+}
